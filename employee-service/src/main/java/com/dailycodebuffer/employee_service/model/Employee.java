@@ -1,4 +1,4 @@
 package com.dailycodebuffer.employee_service.model;
 
-public class Employee {
+public record Employee(Long id, Long departmentId, String name, int age, String position) {
 }
